@@ -3,17 +3,15 @@ import './App.css';
 import NavBar from './components/NavBar';
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
   Routes,
-  Link,
-  BrowserRouter
 } from "react-router-dom";
 import AccountDetails from './components/accountDetails';
 import Ops from './components/ops';
 import Orders from './components/orders';
 import ProductList from './components/productList';
 import Home from './components/home';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -42,6 +40,7 @@ function App() {
             element={<Ops />} />
         </Routes>
       </Router> 
+      <Footer/>
     </div>
   );
 }

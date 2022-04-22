@@ -17,4 +17,4 @@ def get_current_time():
 if __name__ =='__main__':
     app.run(debug=True)
 
-## I have created a dictonary which will be recognised a json on the frontend. This will allow me to extract the time 
+## I have created a dictonary which will be recognised as json on the frontend. This will allow me to extract the time 
